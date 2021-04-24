@@ -1,8 +1,8 @@
 # Files guid
-* CheckPoints: Weights of the model on each fold.
-* images: Here you can find the training results for each epoch in each fold.
-* Prostate-cANcer: The main code. (run using Google colab).
-* submit-to-competition.ipynb: The code for submitting to the competition (run using Kaggle notebook).
+* **CheckPoints:** Weights of the model on each fold.
+* **images:** Here you can find the training results for each epoch in each fold.
+* **Prostate-cANcer:** The main code. (run using Google colab).
+* **submit-to-competition:** The code for submitting to the competition (run using Kaggle notebook).
 # Table of contents
 * [Overview](#overview)
 * [Techniques I used](#techniques-i-used)
