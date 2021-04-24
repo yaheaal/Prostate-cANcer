@@ -49,16 +49,26 @@ Simply we are just reducing the learning rate whenever the model is not improvin
 The tile size I used was 256 with 16 tiles so, in total, the image shape will be (1024, 1,024).\
 You should try to use tile_size=300 or even 512 if you can.
 ### Reduce the batch size :
-.......
+**(High impact on the score)**\
+Increasing the batch size by more than 8 will definitely increase the score.\
+Try to use 10 for example.
 ### Train for longer time (more epochs) : 
-.......
+**(Medium impact on the score)**\
+Use more than 5 epochs for each fold, but don't forget to use the EarlyStopping.
 ### Find the best mix between the 5 models :
-.......
+**(Medium impact on the score)**\
+In my solution I used the sum of the 5 folds,to git the best mix you can try to work on 2 or 3 folds only and give them different weights.
 ### Use another technique to reduce the LR :
-.......
+**(Medium impact on the score)**\
+You can find more techniques [Here](https://pytorch.org/docs/stable/optim.html)
 ### Try another augmention techniques : 
-.......
- for example adding some noise to the images.
+**(Small impact on the score)**\
+For example adding some noise to the images.
 
-# Note about the score in this parameters.
+# Note about the score in this parameters
+As I said before due to lack of time and computing power I was aple to reach **Public Score:** 0.84242, **Private Score:** 0.90220
+You can use the weights in this [Notebook](https://www.kaggle.com/haqishen/panda-inference-w-36-tiles-256) to reach my score on the leaderboard.
 # Reference
+. I want to say thanks alot for [Qishen Ha](https://www.kaggle.com/haqishen) and [Iafoss](https://www.kaggle.com/iafoss) for sharing there solutions which I used in my code.
+. [Tiling method](https://www.kaggle.com/iafoss/panda-16x128x128-tiles)
+. Some lines in my notebook was taken from [Here](https://www.kaggle.com/haqishen/train-efficientnet-b0-w-36-tiles-256-lb0-87) and [Here](https://www.kaggle.com/haqishen/panda-inference-w-36-tiles-256).
