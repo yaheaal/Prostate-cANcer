@@ -67,7 +67,7 @@ For example adding some noise to the images.
 
 # About the score 
 As I said before due to lack of time and computing power I was aple to reach **Public Score:** 0.84242, **Private Score:** 0.90220 here.\
-You can use the weights in this [Notebook](https://www.kaggle.com/haqishen/panda-inference-w-36-tiles-256) to reach my score on the leaderboard.
+You can use the weights in this [Notebook](https://www.kaggle.com/haqishen/panda-inference-w-36-tiles-256) to reach my score on the leaderboard **Public Score:** 0.87525, **Private Score:** 0.91539 here.
 # Reference
 * I want to say thanks alot for [Qishen Ha](https://www.kaggle.com/haqishen) and [Iafoss](https://www.kaggle.com/iafoss) for sharing there solutions which I used in my code.
 * [Tiling method](https://www.kaggle.com/iafoss/panda-16x128x128-tiles)
