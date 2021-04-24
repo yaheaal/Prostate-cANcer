@@ -32,8 +32,7 @@ Test-time augmentation, or TTA for short, is an application of data augmentation
 Specifically, it involves creating multiple augmented copies of each image in the test set, having the model make a prediction for each, then returning an ensemble of those predictions.\
 [Here](https://machinelearningmastery.com/how-to-use-test-time-augmentation-to-improve-model-performance-for-image-classification) you can see how to use Test-Time Augmentation to Make Better Predictions.
 ### Ensemble learning
-Briefly Ensemble is training multiple models, where I traind 5 models on 5 different parts of the data, then for each test data there was 5 predictions wich I Merged them
-together to get the last and the best prediction.
+Briefly Ensemble is training multiple models, where I trained 5 models on 5 different parts of the data, then for each test data, there were 5 predictions which I Merged them together to get the last and the best prediction.
 ### EarlyStopping
 I trained each fold for 5 epochs, so here we are just using early stopping the save the best parameters from these epochs.
 ### ReduceLROnPlateau
