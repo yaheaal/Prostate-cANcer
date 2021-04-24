@@ -1,5 +1,5 @@
 # Files guid
-* **CheckPoints:** Weights of the model on each fold.
+* **CheckPoints:** Model weights on each fold.
 * **images:** Here you can find the training results for each epoch in each fold.
 * **Prostate-cANcer:** The main code. (run using Google colab).
 * **submit-to-competition:** The code for submitting to the competition (run using Kaggle notebook).
