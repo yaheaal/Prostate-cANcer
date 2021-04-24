@@ -22,7 +22,7 @@ I used Pytorch framework to build a convolutional neural network, where I used *
 Using some **image augmentation** and **TAA** (test-time augmentation) I was able to reach more than 90% accuracy.
 You can find more details in my main [code](https://translate.google.com/?sl=en&tl=ar&op=translate) and in the [Techniques I used](https://translate.google.com/?sl=en&tl=ar&op=translate).
 ### Evaluation
-Submissions are scored based on the [Quadratic Weighted Kappa](https://en.wikipedia.org/wiki/Cohen%27s_kappa), which measures the agreement between two outcomes. This metric typically varies from 0 (random agreement) to 1 (complete agreement). In the event that there is less agreement than expected by chance, the metric may go below 0.
+Submissions are scored based on the [Quadratic Weighted Kappa](https://en.wikipedia.org/wiki/Cohen%27s_kappa), which measures the agreement between two outcomes. This metric typically varies from 0 (random agreement) to 1 (complete agreement). If there is less agreement than expected by chance, the metric may go below 0.
 # Techniques I used
 ### Tiles :
 Using tiling method based on this [notebook](https://www.kaggle.com/iafoss/panda-16x128x128-tiles).
