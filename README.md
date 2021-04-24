@@ -24,14 +24,14 @@ You can find more details in my main [code](https://github.com/yaheaal/Prostate-
 ### Evaluation
 Submissions are scored based on the [Quadratic Weighted Kappa](https://en.wikipedia.org/wiki/Cohen%27s_kappa), which measures the agreement between two outcomes. This metric typically varies from 0 (random agreement) to 1 (complete agreement). If there is less agreement than expected by chance, the metric may go below 0.
 # Techniques I used
-### Tiles :
+### Tiles
 Using tiling method based on this [notebook](https://www.kaggle.com/iafoss/panda-16x128x128-tiles).
 Where I used `tile_size = 256` `n_tiles = 16`.
-### TTA :
+### TTA
 Test-time augmentation, or TTA for short, is an application of data augmentation to the test dataset.
 Specifically, it involves creating multiple augmented copies of each image in the test set, having the model make a prediction for each, then returning an ensemble of those predictions.\
 [Here](https://machinelearningmastery.com/how-to-use-test-time-augmentation-to-improve-model-performance-for-image-classification) you can see how to use Test-Time Augmentation to Make Better Predictions.
-### Ensemble learning :
+### Ensemble learning
 Briefly Ensemble is training multiple models, where I traind 5 models on 5 different parts of the data, then for each test data there was 5 predictions wich I Merged them
 together to get the last and the best prediction.
 ### EarlyStopping
