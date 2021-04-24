@@ -43,7 +43,20 @@ I trained each fold for 5 epochs, so here we are just using early stopping the s
 ### ReduceLROnPlateau
 Simply we are just reducing the learning rate whenever the model is not improving.
 # Tips to improve the accuracy
-Reduce the image size, the batch size, train for longer time with more epochs, try to find the best mix between the 5 models, use another technique to reduce the LR,try another augmention techniques for example adding some noise to the images.
+Note that I didn't use this tips due to **lack of time** and **computing power**.
+### Reduce the image size :
+.......
+### Reduce the batch size :
+.......
+### Train for longer time (more epochs) : 
+.......
+### Find the best mix between the 5 models :
+.......
+### Use another technique to reduce the LR :
+.......
+### Try another augmention techniques : 
+.......
+ for example adding some noise to the images.
 
 # Note about the score in this parameters.
 # Reference
