@@ -4,7 +4,7 @@
 * [Overview](#overview)
 * [Techniques I used](#techniques-i-used)
 * [Tips to improve the accuracy](#tips-to-improve-the-accuracy)
-* [Note about the score in this parameters.](#note-about-the-score-in-this-parameters)
+* [About the score](#about-the-score)
 * [Reference](#reference)
 
 # Overview
@@ -65,8 +65,8 @@ You can find more techniques [Here](https://pytorch.org/docs/stable/optim.html)
 **(Small impact on the score)**\
 For example adding some noise to the images.
 
-# Note about the score in this parameters
-As I said before due to lack of time and computing power I was aple to reach **Public Score:** 0.84242, **Private Score:** 0.90220 here.
+# About the score 
+As I said before due to lack of time and computing power I was aple to reach **Public Score:** 0.84242, **Private Score:** 0.90220 here.\
 You can use the weights in this [Notebook](https://www.kaggle.com/haqishen/panda-inference-w-36-tiles-256) to reach my score on the leaderboard.
 # Reference
 * I want to say thanks alot for [Qishen Ha](https://www.kaggle.com/haqishen) and [Iafoss](https://www.kaggle.com/iafoss) for sharing there solutions which I used in my code.
