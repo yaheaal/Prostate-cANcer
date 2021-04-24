@@ -20,7 +20,7 @@ The challenge in this competition is to **Classify** the severity of prostate ca
 ### Problem solution
 I used Pytorch framework to build a convolutional neural network, where I used **transfer learning** techniques.
 Using some **image augmentation** and **TAA** (test-time augmentation) I was able to reach more than 90% accuracy.
-You can find more details in my main [code](https://translate.google.com/?sl=en&tl=ar&op=translate) and in the [Techniques I used](https://translate.google.com/?sl=en&tl=ar&op=translate).
+You can find more details in my main [code](https://github.com/yaheaal/Prostate-cANcer/blob/main/Prostate_cancer_classification_with_Pytorch__Efficientnet.ipynb) and in the [Techniques I used](#techniques-i-used).
 ### Evaluation
 Submissions are scored based on the [Quadratic Weighted Kappa](https://en.wikipedia.org/wiki/Cohen%27s_kappa), which measures the agreement between two outcomes. This metric typically varies from 0 (random agreement) to 1 (complete agreement). If there is less agreement than expected by chance, the metric may go below 0.
 # Techniques I used
@@ -60,6 +60,9 @@ You can find more techniques [Here](https://pytorch.org/docs/stable/optim.html)
 ### Try another augmention techniques : 
 **(Small impact on the score)**\
 For example adding some noise to the images.
+### Change the TTA number : 
+**(Small impact on the score)**\
+I used 10, you can try to reduce or increase it.
 # About the score 
 As I said before due to lack of time and computing power I was aple to reach **Public Score:** 0.84242, **Private Score:** 0.90220 here.\
 You can use the weights in this [Notebook](https://www.kaggle.com/haqishen/panda-inference-w-36-tiles-256) to reach my score on the leaderboard **Public Score:** 0.87525, **Private Score:** 0.91539 .
