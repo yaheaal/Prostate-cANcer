@@ -1,6 +1,6 @@
 Link to the [Competition](https://www.kaggle.com/c/prostate-cancer-grade-assessment)\
 **Note:** in the code I am using the Debug mode, because running the code on all the samples will take to long time.\
-At the end of the code, you can find the real results.
+At the end of the main code, you can find the real results.
 # Files guid
 * **CheckPoints:** Model weights for each fold.
 * **images:** Here you can find the training results for each epoch in each fold.
