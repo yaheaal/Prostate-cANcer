@@ -1,7 +1,11 @@
 # Files guid
 
 # Table of contents
-
+* [Overview](#overview)
+* [Techniques I used](#techniques-i-used)
+* [Tips to improve the accuracy](#tips-to-improve-the-accuracy)
+* [Note about the score in this parameters.](#note-about-the-score-in-this-parameters)
+* [Reference](#reference)
 
 # Overview
 ### Problem Statement
