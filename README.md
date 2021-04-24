@@ -43,9 +43,10 @@ I trained each fold for 5 epochs, so here we are just using early stopping the s
 ### ReduceLROnPlateau
 Simply we are just reducing the learning rate whenever the model is not improving.
 # Tips to improve the accuracy
-Note that I didn't use this tips due to **lack of time** and **computing power**.
+**Note** that I didn't use this tips due to **lack of time** and **computing power**.
 ### Reduce the image size :
-.......
+ **(High impact on the score)**\
+The tile size I used was 256 with 16 n_tiles so in totaly the image shape will be (1024, 1,024), so try to use tile_size=300 or even 512 if you can.
 ### Reduce the batch size :
 .......
 ### Train for longer time (more epochs) : 
